@@ -146,6 +146,11 @@
   </footer>
 
   <script>
+      function scrollToSection() {
+    document.querySelector('#about').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
     // Animação de texto dinâmico
     const dynamicText = document.getElementById('dynamic-text');
     const phrases = ["Sustentávell", "Inovadoraa", "Conscientee", "Ecológicoo"];
